@@ -2,6 +2,13 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
 
+```shell
+ng new example-angular-19-app
+✔ Do you want to create a 'zoneless' application without zone.js (Developer Preview)? No
+✔ Which stylesheet format would you like to use? Sass (SCSS)     [ https://sass-lang.com/documentation/syntax#scss                ]
+✔ Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? No
+```
+
 ## Development server
 
 To start a local development server, run:
