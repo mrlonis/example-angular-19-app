@@ -4,9 +4,44 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ```shell
 ng new example-angular-19-app
+
 ✔ Do you want to create a 'zoneless' application without zone.js (Developer Preview)? No
 ✔ Which stylesheet format would you like to use? Sass (SCSS)     [ https://sass-lang.com/documentation/syntax#scss                ]
 ✔ Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? No
+
+npm run ng -- add @angular/material@19
+
+✔ Determining Package Manager
+  › Using package manager: npm
+✔ Loading package information from registry
+✔ Confirming installation
+✔ Installing package
+✔ Choose a prebuilt theme name, or "custom" for a custom theme: Azure/Blue         [Preview: https://material.angular.dev?theme=azure-blue]
+✔ Set up global Angular Material typography styles? Yes
+UPDATE package.json (1166 bytes)
+✔ Packages installed successfully.
+No project index HTML file could be found.
+
+npm run ng -- add angular-eslint@19
+
+✔ Determining Package Manager
+  › Using package manager: npm
+✔ Loading package information from registry
+✔ Confirming installation
+✔ Installing package
+
+    All angular-eslint dependencies have been successfully installed 🎉
+
+    Please see https://github.com/angular-eslint/angular-eslint for how to add ESLint configuration to your project.
+
+    We detected that you have a single project in your workspace and no existing linter wired up, so we are configuring ESLint for you automatically.
+
+    Please see https://github.com/angular-eslint/angular-eslint for more information.
+
+CREATE eslint.config.js (969 bytes)
+UPDATE package.json (1281 bytes)
+UPDATE angular.json (2941 bytes)
+✔ Packages installed successfully.
 ```
 
 ## Development server
